@@ -13,6 +13,8 @@
 		1881C6BC245810DE00EE10C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1881C6BB245810DE00EE10C3 /* Assets.xcassets */; };
 		1881C6BF245810DE00EE10C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1881C6BD245810DE00EE10C3 /* LaunchScreen.storyboard */; };
 		1881C6C72458119400EE10C3 /* TasksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881C6C62458119400EE10C3 /* TasksController.swift */; };
+		1881C6C9245842FE00EE10C3 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881C6C8245842FE00EE10C3 /* Task.swift */; };
+		1881C6CB2458465500EE10C3 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881C6CA2458465500EE10C3 /* TaskStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1881C6BE245810DE00EE10C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1881C6C0245810DE00EE10C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1881C6C62458119400EE10C3 /* TasksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksController.swift; sourceTree = "<group>"; };
+		1881C6C8245842FE00EE10C3 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		1881C6CA2458465500EE10C3 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				1881C6C62458119400EE10C3 /* TasksController.swift */,
+				1881C6CA2458465500EE10C3 /* TaskStore.swift */,
+				1881C6C8245842FE00EE10C3 /* Task.swift */,
 				1881C6B8245810DB00EE10C3 /* Main.storyboard */,
 				1881C6BB245810DE00EE10C3 /* Assets.xcassets */,
 				1881C6B2245810DB00EE10C3 /* AppDelegate.swift */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1881C6CB2458465500EE10C3 /* TaskStore.swift in Sources */,
+				1881C6C9245842FE00EE10C3 /* Task.swift in Sources */,
 				1881C6B3245810DB00EE10C3 /* AppDelegate.swift in Sources */,
 				1881C6C72458119400EE10C3 /* TasksController.swift in Sources */,
 				1881C6B5245810DB00EE10C3 /* SceneDelegate.swift in Sources */,
